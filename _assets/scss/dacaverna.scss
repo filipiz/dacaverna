@@ -1,0 +1,55 @@
+@import 'bootstrap';
+html, body {
+	height: 100%;
+	width: 100%;
+
+}
+.temp.container{
+	background: url('capa_psycho.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 100%;
+	height: 100%;
+	background-color: #4741B2;
+
+	p {
+		text-align: center;
+		background-color: #4741B2;
+		color: #FFF;
+		padding: 5px;
+	}
+}
+
+.event-container{
+ 	margin-bottom: 20px;
+
+}
+
+.event-image{
+	border-radius: 5px;
+}
+
+.event-name, .event-time, .event-place, .event-city{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;	
+}
+
+.event-name{
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.event-time{
+
+}
+
+.event-place{
+	&:before{
+		content: '@';
+	}
+}
+.event-city{
+
+}
