@@ -1,0 +1,6 @@
+exclude: 
+  - Gruntfile.js
+  - bower.json
+  - package.json
+  - bower_components
+  - node_modules
