@@ -3,3 +3,5 @@
 bower_components
 node_modules
 _site
+assets/dacaverna.js
+assets/jquery.min.js
